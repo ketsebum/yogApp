@@ -25,22 +25,182 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <link rel="stylesheet" href="css/themes/Bikram.min.css" />
+        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+        <link href="bower_components/jquery-mobile/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet" />
+<!--        <link href="bower_components/jquery-mobile/jquery.mobile-1.4.5.min.css" rel="stylesheet" />-->
+        <script src="bower_components/jquery/dist/jquery.min.js" ></script>
+        <script src="bower_components/jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
+        <!-- Start of first page -->
+        <div data-role="page" id="home" class="ui-page-theme-b">
+
+            <div data-role="header" class="training-header">
+<!--                <h1>Bikram Yoga</h1>-->
+                <img src="assets/imageedit_1_2120478440.gif" class="header-image"/>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content  ui-page-theme-b" data-form="ui-page-theme-b" role="main">
+                <div data-form="ui-body-b" class="ui-body ui-body-b ui-corner-all" >
+                    <p style="text-transform: none;">Heal your Body, Calm your Mind, Re-Ignite your Life!  Bikram yoga is the original hot yoga and Bikram Yoga Cincinnati is the only studio in the area to bring it to you!  Conveniently located off I-71 on Red Bank Expressway, our classes are designed for beginners, but are challenging even for more experienced yoga students. </p>
+
+<p style="text-transform: none;">During the 90-minute class, you will work every muscle, tendon, ligament, joint, and organ in your entire body, giving you an incredible sense of well-being.  Even if you are brand new to yoga, our Bikram-certified instructors will guide you through every step. </p>  
+
+<p style="text-transform: none;">Bikram Yoga is designed for everybody and every body!  We have students of all shapes, sizes, ages, backgrounds and body types.  Not flexible?  Bad Back?  Bad Knees?  No problem!  Our instructors are trained to help you work with and through all types of injuries and conditions.   </p>  
+
+<p style="text-transform: none;">Our philosophy is Everyone can do Yoga.  You don’t have to be perfect.  Just be who you are, try your best, do what you can and…..Love what you’ve got!</p>
+                    </p>
+                </div>
+            </div><!-- /content -->
+            
+            <div data-position="fixed" data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
+                        <li><a href="#" data-icon="tag">About Us</a></li>
+                        <li><a href="#listView" data-icon="calendar">Calendar</a></li>
+                        <li><a href="#" data-icon="gear">Settings</a></li>
+                    </ul>
+                </div>
+                <div id="deviceready" class="blink">
+                    <p class="event listening">Connecting to Device</p>
+                    <p class="event received">Device is Ready</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+
+        <!-- Start of second page -->
+        <div data-role="page" id="listView" class="ui-page-theme-b">
+
+            <div data-role="header">
+                <a href="#home" class="ui-btn">Home</a><h1>Calendar</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+                <div data-role="collapsibleset" data-theme="b" data-inset="false">
+                    <div data-role="collapsible">
+                        <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
+                        <ul data-role="listview" data-inset="true">
+                            <li><a href="#">
+                                <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>7:30 am - 9:00 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>9:30 am - 11:00 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Posture Intensive</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>11:00 am - 11:30 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>2:00 pm - 3:30 pm</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Sunday, January 4th, 2015 <span class="ui-li-count">2</span></h2>
+                        <ul data-role="listview" data-inset="true">
+                            <li><a href="#">
+                                <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>7:30 am - 9:00 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>2:00 pm - 3:30 pm</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
+                        <ul data-role="listview" data-inset="true">
+                            <li><a href="#">
+                                <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>7:30 am - 9:00 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>9:30 am - 11:00 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Posture Intensive</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>11:00 am - 11:30 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>2:00 pm - 3:30 pm</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
+                        <ul data-role="listview" data-inset="true">
+                            <li><a href="#">
+                                <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>7:30 am - 9:00 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>9:30 am - 11:00 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Posture Intensive</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>11:00 am - 11:30 am</p>
+                                </a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p>2:00 pm - 3:30 pm</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /content -->
+
+            <div data-position="fixed" data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home" data-icon="home">Home</a></li>
+                        <li><a href="#" data-icon="tag">About Us</a></li>
+                        <li><a href="#listView" data-icon="calendar" class="ui-btn-active">Calendar</a></li>
+                        <li><a href="#" data-icon="gear">Settings</a></li>
+                    </ul>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
     </body>
 </html>
