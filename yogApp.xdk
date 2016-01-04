@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "",
       "projectGuid": "e2deb63c-79c4-4c19-86dd-de43a22b4ea2",
-      "lastModifiedDate": 1451763359866,
+      "lastModifiedDate": 1451782393140,
       "creationDate": 1451763359810
     },
     "sourceDirectory": "www",
@@ -85,7 +85,7 @@
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "crosswalkVersion_": "14",
+        "crosswalkVersion_": "15",
         "cordovaCLIVersion_": "5.1.1"
       },
       "iOS": {
