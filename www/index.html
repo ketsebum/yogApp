@@ -45,15 +45,46 @@
             </div><!-- /header -->
 
             <div role="main" class="ui-content  ui-page-theme-b" data-form="ui-page-theme-b" role="main">
-                <div data-form="ui-body-b" class="ui-body ui-body-b ui-corner-all" >
-                    <p style="text-transform: none;">Heal your Body, Calm your Mind, Re-Ignite your Life!  Bikram yoga is the original hot yoga and Bikram Yoga Cincinnati is the only studio in the area to bring it to you!  Conveniently located off I-71 on Red Bank Expressway, our classes are designed for beginners, but are challenging even for more experienced yoga students. </p>
+                <div data-role="tabs" id="tabs">
+                    <div data-role="navbar">
+                        <ul>
+                            <li><a href="#welcome" data-ajax="false" class="ui-btn-active">Welcome!</a></li>
+                            <li><a href="#myaccount" data-ajax="false">My Account</a></li>
+<!--                            <li><a href="http://cincinnatibikramyoga.com/apps/mindbody/myaccount" data-ajax="true">test</a></li>-->
+                        </ul>
+                    </div>
+                    <div id="welcome" class="ui-body-b ui-conent ui-corner-all">
+                        <div data-form="ui-body-b" class="ui-body ui-body-b ui-corner-all" >
+                            <h2>Welcome!</h2>
+                            <p style="text-transform: none;">Heal your Body, Calm your Mind, Re-Ignite your Life!  Bikram yoga is the original hot yoga and Bikram Yoga Cincinnati is the only studio in the area to bring it to you!  Conveniently located off I-71 on Red Bank Expressway, our classes are designed for beginners, but are challenging even for more experienced yoga students. </p>
 
-<p style="text-transform: none;">During the 90-minute class, you will work every muscle, tendon, ligament, joint, and organ in your entire body, giving you an incredible sense of well-being.  Even if you are brand new to yoga, our Bikram-certified instructors will guide you through every step. </p>  
+        <p style="text-transform: none;">During the 90-minute class, you will work every muscle, tendon, ligament, joint, and organ in your entire body, giving you an incredible sense of well-being.  Even if you are brand new to yoga, our Bikram-certified instructors will guide you through every step. </p>  
 
-<p style="text-transform: none;">Bikram Yoga is designed for everybody and every body!  We have students of all shapes, sizes, ages, backgrounds and body types.  Not flexible?  Bad Back?  Bad Knees?  No problem!  Our instructors are trained to help you work with and through all types of injuries and conditions.   </p>  
+        <p style="text-transform: none;">Bikram Yoga is designed for everybody and every body!  We have students of all shapes, sizes, ages, backgrounds and body types.  Not flexible?  Bad Back?  Bad Knees?  No problem!  Our instructors are trained to help you work with and through all types of injuries and conditions.   </p>  
 
-<p style="text-transform: none;">Our philosophy is Everyone can do Yoga.  You don’t have to be perfect.  Just be who you are, try your best, do what you can and…..Love what you’ve got!</p>
-                    </p>
+        <p style="text-transform: none;">Our philosophy is Everyone can do Yoga.  You don’t have to be perfect.  Just be who you are, try your best, do what you can and…..Love what you’ve got!</p>
+                        </div>
+                    </div>
+                    <div id="myaccount" class="ui-body-b ui-conent ui-corner-all">
+                        <div data-form="ui-body-b" class="ui-body ui-body-b ui-corner-all" >
+                            <form>
+                                <label for="text-basic">First Name</label>
+                                <input type="text" name="text-basic" id="text-basic" value="Nicole">
+                                <label for="text-basic">Middle Name</label>
+                                <input type="text" name="text-basic" id="text-basic" value="">
+                                <label for="text-basic">Last Name</label>
+                                <input type="text" name="text-basic" id="text-basic" value="Nunley">
+                                <label for="text-basic">Address</label>
+                                <input type="text" name="text-basic" id="text-basic" value="1481 Valdosta Dr.">
+                                <label for="text-basic">City</label>
+                                <input type="text" name="text-basic" id="text-basic" value="Cincinnati">
+                                <label for="text-basic">State</label>
+                                <select name="select-choice-a" id="select-choice-a" data-native-menu="false">
+                                    <option>Ohio</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div><!-- /content -->
             
@@ -61,14 +92,124 @@
                 <div data-role="navbar">
                     <ul>
                         <li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
-                        <li><a href="#" data-icon="tag">About Us</a></li>
+                        <li><a href="#aboutus" data-icon="tag">About Us</a></li>
                         <li><a href="#listView" data-icon="calendar">Schedule</a></li>
-                        <li><a href="#" data-icon="gear">Settings</a></li>
+                        <li><a href="#settings" data-icon="gear">Settings</a></li>
                     </ul>
                 </div>
                 <div id="deviceready" class="blink">
                     <p class="event listening">Connecting to Device</p>
                     <p class="event received">Device is Ready</p>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+    
+    <!-- Start of first page -->
+        <div data-role="page" id="aboutus" class="ui-page-theme-b">
+
+            <div data-role="header" class="training-header">
+<!--                <h1>Bikram Yoga</h1>-->
+                <img src="assets/imageedit_1_2120478440.gif" class="header-image"/>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content  ui-page-theme-b" data-form="ui-page-theme-b" role="main">
+                <div data-role="tabs" id="tabs">
+                    <div data-role="navbar">
+                        <ul>
+                            <li><a href="#about" data-ajax="false" class="ui-btn-active">About</a></li>
+                            <li><a href="#rates" data-ajax="false">Rates</a></li>
+                            <li><a href="http://cincinnatibikramyoga.com/blog" data-ajax="true">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div id="about" class="ui-body-b ui-conent ui-corner-all">
+                        <div data-form="ui-body-b" class="ui-body ui-body-b ui-corner-all" >
+                        <h3>About The Studio</h3>
+<p style="text-transform: none;">Our studio features a consistently heated yoga room, a spacious retail area, and changing rooms complete with showers and bathrooms.
+ 
+<h3>Heating System</h3>
+<p style="text-transform: none;">Our state of the art heating system provides consistent heat, humidity and fresh air into our yoga room.  You are guaranteed to get a good sweat each and every time you practice!</p>
+ 
+<h3>Anti-Microbial Carpet</h3>
+<p style="text-transform: none;">Our yoga room floor is anti-microbial, allergenic, and slip resistant. The floor is cleaned regularly so you always have a clean space to practice.</p>
+ 
+<h3>Changing Rooms</h3>
+<p style="text-transform: none;">Our men’s and women’s changing rooms come complete with everything you need.  Bathrooms, showers, hair dryers, plenty of changing space &amp; cubbies to store your things!</p>
+ 
+<h3>Everything You Need</h3>
+<p style="text-transform: none;">If you forgot something, don’t worry!  You can rent or buy mats, towels, water, electrolytes and yoga gear at the studio.</p>
+ 
+<h3>Yoga Retail</h3>
+                        <p style="text-transform: none;">We have a great selection of yoga wear and yoga gear!  Shop your favorite yoga products Shakti, Onzie, LaLa ComfyWear, WAYMat, Ultima, Hydroflask &amp; More!</p>
+                        </div>
+                    </div>
+                    <div id="about">
+                        <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#">
+                            <h2>$16 - Single Class</h2>
+<!--                            <p>Train your body first...</p>-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>$140 - 10 Class Card</h2>
+<!--                            <p>Fuel your greatest engine...</p>-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="calendar-button">
+                            <h2>$125 - 1 Month Unlimited</h2>
+<!--                            <p></p>-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>$99 - Monthly unlimited</h2>
+                            <p>Saving with Auto-Pay!</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>$30 - 30 day trial period</h2>
+<!--                            <p>Saving with Auto-Pay!</p>-->
+                        </a>
+                    </li>
+                </ul>
+                    </div>
+                </div>
+            </div><!-- /content -->
+            
+            <div data-position="fixed" data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home" data-icon="home" >Home</a></li>
+                        <li><a href="#aboutus" data-icon="tag" class="ui-btn-active">About Us</a></li>
+                        <li><a href="#listView" data-icon="calendar">Schedule</a></li>
+                        <li><a href="#settings" data-icon="gear">Settings</a></li>
+                    </ul>
+                </div>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+    
+        <!-- Start of first page -->
+        <div data-role="page" id="settings" class="ui-page-theme-b">
+
+            <div data-role="header" class="training-header">
+<!--                <h1>Bikram Yoga</h1>-->
+                <img src="assets/imageedit_1_2120478440.gif" class="header-image"/>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content  ui-page-theme-b" data-form="ui-page-theme-b" role="main">
+            </div><!-- /content -->
+            
+            <div data-position="fixed" data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home" data-icon="home">Home</a></li>
+                        <li><a href="#aboutus" data-icon="tag">About Us</a></li>
+                        <li><a href="#listView" data-icon="calendar">Schedule</a></li>
+                        <li><a href="#settings" data-icon="gear" class="ui-btn-active">Settings</a></li>
+                    </ul>
                 </div>
             </div><!-- /footer -->
         </div><!-- /page -->
@@ -81,110 +222,182 @@
             </div><!-- /header -->
 
             <div role="main" class="ui-content">
-                <div data-role="collapsibleset" data-theme="b" data-inset="false">
-                    <div data-role="collapsible">
-                        <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
-                        <ul data-role="listview" data-inset="true">
+                <div data-role="tabs" id="tabs">
+                    <div data-role="navbar">
+                        <ul>
+                            <li><a href="#my" data-ajax="false" class="ui-btn-active">My</a></li>
+                            <li><a href="#upcoming" data-ajax="false">Studio</a></li>
+                            <li><a href="#past" data-ajax="false">Past</a></li>
+<!--                            <li><a href="http://cincinnatibikramyoga.com/apps/mindbody/myaccount" data-ajax="true">test</a></li>-->
+                        </ul>
+                    </div>
+                    <div id="my">
+                        <ul data-role="listview" data-split-icon="delete" data-theme="b" data-inset="true">
                             <li><a href="#">
                                 <h2>Bikram's Beginning Yoga Class</h2>
                                     <p><strong>Michelle Furlong</strong></p>
-                                    <p>7:30 am - 9:00 am</p>
+                                    <p><strong>1/04/2016</strong> 7:30 am - 9:00 am</p>
+                                </a>
+                                <a href="#"></a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p><strong>1/05/2016</strong> 9:30 am - 11:00 am</p>
+                                </a>
+                                <a href="#"></a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Posture Intensive</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p><strong>1/06/2016</strong> 11:00 am - 11:30 am</p>
+                                </a>
+                                <a href="#"></a>
+                            </li>
+                            <li><a href="#">
+                                    <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p><strong>1/07/2016</strong> 2:00 pm - 3:30 pm</p>
+                                </a>
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="past">
+                        <ul data-role="listview" data-theme="b" data-inset="true" data-icon="false">
+                            <li><a href="#">
+                                <h2>Bikram's Beginning Yoga Class</h2>
+                                    <p><strong>Michelle Furlong</strong></p>
+                                    <p><strong>12/04/2016</strong> 7:30 am - 9:00 am</p>
                                 </a>
                             </li>
                             <li><a href="#">
                                     <h2>Bikram's Beginning Yoga Class</h2>
                                     <p><strong>Michelle Furlong</strong></p>
-                                    <p>9:30 am - 11:00 am</p>
+                                    <p><strong>12/05/2016</strong> 9:30 am - 11:00 am</p>
                                 </a>
                             </li>
                             <li><a href="#">
                                     <h2>Posture Intensive</h2>
                                     <p><strong>Michelle Furlong</strong></p>
-                                    <p>11:00 am - 11:30 am</p>
+                                    <p><strong>12/06/2016</strong> 11:00 am - 11:30 am</p>
                                 </a>
                             </li>
                             <li><a href="#">
                                     <h2>Bikram's Beginning Yoga Class</h2>
                                     <p><strong>Michelle Furlong</strong></p>
-                                    <p>2:00 pm - 3:30 pm</p>
+                                    <p><strong>12/07/2016</strong> 2:00 pm - 3:30 pm</p>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div data-role="collapsible">
-                        <h2>Sunday, January 4th, 2015 <span class="ui-li-count">2</span></h2>
-                        <ul data-role="listview" data-inset="true">
-                            <li><a href="#">
-                                <h2>Bikram's Beginning Yoga Class</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>7:30 am - 9:00 am</p>
-                                </a>
-                            </li>
-                            <li><a href="#">
-                                    <h2>Bikram's Beginning Yoga Class</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>2:00 pm - 3:30 pm</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible">
-                        <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
-                        <ul data-role="listview" data-inset="true">
-                            <li><a href="#">
-                                <h2>Bikram's Beginning Yoga Class</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>7:30 am - 9:00 am</p>
-                                </a>
-                            </li>
-                            <li><a href="#">
-                                    <h2>Bikram's Beginning Yoga Class</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>9:30 am - 11:00 am</p>
-                                </a>
-                            </li>
-                            <li><a href="#">
-                                    <h2>Posture Intensive</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>11:00 am - 11:30 am</p>
-                                </a>
-                            </li>
-                            <li><a href="#">
-                                    <h2>Bikram's Beginning Yoga Class</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>2:00 pm - 3:30 pm</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-role="collapsible">
-                        <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
-                        <ul data-role="listview" data-inset="true">
-                            <li><a href="#">
-                                <h2>Bikram's Beginning Yoga Class</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>7:30 am - 9:00 am</p>
-                                </a>
-                            </li>
-                            <li><a href="#">
-                                    <h2>Bikram's Beginning Yoga Class</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>9:30 am - 11:00 am</p>
-                                </a>
-                            </li>
-                            <li><a href="#">
-                                    <h2>Posture Intensive</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>11:00 am - 11:30 am</p>
-                                </a>
-                            </li>
-                            <li><a href="#">
-                                    <h2>Bikram's Beginning Yoga Class</h2>
-                                    <p><strong>Michelle Furlong</strong></p>
-                                    <p>2:00 pm - 3:30 pm</p>
-                                </a>
-                            </li>
-                        </ul>
+                    <div id="upcoming">
+                        <div data-role="collapsibleset" data-theme="b" data-inset="true">
+                            <div data-role="collapsible">
+                                <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
+                                <ul data-role="listview" data-inset="false" data-icon="plus">
+                                    <li><a href="#">
+                                        <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>7:30 am - 9:00 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>9:30 am - 11:00 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Posture Intensive</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>11:00 am - 11:30 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>2:00 pm - 3:30 pm</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div data-role="collapsible">
+                                <h2>Sunday, January 4th, 2015 <span class="ui-li-count">2</span></h2>
+                                <ul data-role="listview" data-inset="true">
+                                    <li><a href="#">
+                                        <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>7:30 am - 9:00 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>2:00 pm - 3:30 pm</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div data-role="collapsible">
+                                <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
+                                <ul data-role="listview" data-inset="true">
+                                    <li><a href="#">
+                                        <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>7:30 am - 9:00 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>9:30 am - 11:00 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Posture Intensive</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>11:00 am - 11:30 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>2:00 pm - 3:30 pm</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div data-role="collapsible">
+                                <h2>Saturday, January 3rd, 2015 <span class="ui-li-count">4</span></h2>
+                                <ul data-role="listview" data-inset="true">
+                                    <li><a href="#">
+                                        <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>7:30 am - 9:00 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>9:30 am - 11:00 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Posture Intensive</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>11:00 am - 11:30 am</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                            <h2>Bikram's Beginning Yoga Class</h2>
+                                            <p><strong>Michelle Furlong</strong></p>
+                                            <p>2:00 pm - 3:30 pm</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div><!-- /content -->
@@ -193,9 +406,9 @@
                 <div data-role="navbar">
                     <ul>
                         <li><a href="#home" data-icon="home">Home</a></li>
-                        <li><a href="#" data-icon="tag">About Us</a></li>
+                        <li><a href="#aboutus" data-icon="tag">About Us</a></li>
                         <li><a href="#listView" data-icon="calendar" class="ui-btn-active">Schedule</a></li>
-                        <li><a href="#" data-icon="gear">Settings</a></li>
+                        <li><a href="#settings" data-icon="gear">Settings</a></li>
                     </ul>
                 </div>
             </div><!-- /footer -->
